@@ -5,12 +5,12 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", serif, sans-serif;
-    background-color: #F9FAFB;
 }
 
 .mainContainer{
     min-height: 95vh;
     width: 100%;
+    background-color: #F9FAFB;
 }
 
 .mainContainer-logo{
@@ -33,4 +33,13 @@
     color: #6C727F;
     width: 700px;
     margin: 0 auto;
+}
+
+.mainContainer__formContainer{
+    width: 600px;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.03), 0px 8px 12px 0px rgba(0, 0, 0, 0.08);
+    padding: 20px;
+    background-color: #FFFFFF;
 }
