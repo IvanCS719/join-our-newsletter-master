@@ -1,61 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link
       rel="icon"
       href="resources/favicon.ico"
       type="image/x-icon"
-      sizes="96x96"
-    />
-
+      sizes="96x96">
     <title>Join Our Newsletter | devChallenges.io</title>
-
-    <!--You are welcome to delete these styles or modify them in your own stylesheet -->
-    <style>
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
-
-      body {
-        height: 100vh;
-      }
-
-      .author-info {
-        font-size: 14px;
-        text-align: center;
-        margin-top: 16px;
-        color: rgb(55, 65, 81);
-      }
-
-      .author-info a {
-        text-decoration: none;
-      }
-    </style>
   </head>
   <body>
+    <main class="mainContainer">
+      <h1 class="mainContainer-title">Join our newsletter</h1>
+      <p class="mainContainer-info">Keep up with our latest collections, exclusive deals, and special offers! We introduce a new collection every week, so stay tuned to snag the hottest items just for you.</p>
+
+      <div class="mainContainer__formContainer">
+        <form action="/" method="post" class="mainContainer__formContainer__form">
+          <input class="mainContainer__formContainer__form-email" type="email" name="email" placeholder="Enter your email address" required>
+          <input class="mainContainer__formContainer__form-submit" type="submit" value="Subscribe now">
+        </form>
+        <small class="mainContainer__formContainer-footer"> Your email is 100% confidential and won't send you any spam.</small>
+      </div>
+    </main>
     <!-- 
-    Join our newsletter
- 
-    Keep up with our latest collections, exclusive deals, and special offers! We introduce a new collection every week, so stay tuned to snag the hottest items just for you.
- 
-    Enter your email address
- 
-    Subscribe now
- 
-    Your email is 100% confidential and won’t send you any spam.
 
     -->
 
-    <div class="author-info">
-      Coded by <a href="#">Your Name Here</a> | Challenge by
+    <footer class="author-info">
+      Coded by <a href="#">IvanDroid</a> | Challenge by
       <a href="https://www.devchallenges.io?ref=challenge" target="_blank"
         >devChallenges.io</a
       >.
-    </div>
+    </footer>
   </body>
 </html>
