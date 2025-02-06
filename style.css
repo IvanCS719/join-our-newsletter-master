@@ -6,3 +6,30 @@
     box-sizing: border-box;
     font-family: "Poppins", serif, sans-serif;
 }
+
+.mainContainer{
+    min-height: 95vh;
+    width: 100%;
+}
+
+.mainContainer-logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mainContainer-title{
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center;
+    color: #000000;
+}
+
+.mainContainer-info{
+    font-size: 1.25rem;
+    font-weight: 400;
+    text-align: center;
+    color: #6C727F;
+    width: 700px;
+    margin: 0 auto;
+}
