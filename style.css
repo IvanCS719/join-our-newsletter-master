@@ -66,3 +66,11 @@
     color: #FFFFFF;
     font-weight: 600;
 }
+
+.mainContainer__formContainer-footer{
+    display: block;
+    text-align: center;
+    font-size: 0.875rem;
+    color: #6C727F;
+    font-weight: 400;
+}
