@@ -71,6 +71,7 @@
     background-color: #284BCE;
     color: #FFFFFF;
     font-weight: 600;
+    cursor: pointer;
 }
 
 .mainContainer__formContainer-footer{
