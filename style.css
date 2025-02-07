@@ -62,6 +62,7 @@
     font-weight: 500;
     border: 1px solid #E5E7EB;
     background-color: #F9FAFB;
+    outline: none;
 }
 
 .mainContainer__formContainer__form-submit{
